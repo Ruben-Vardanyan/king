@@ -27,6 +27,9 @@ div{
 /*.card:hover .fliper{
 	transform: rotateY(540deg) scale(1.3) ;
 }*/
+.fliper:hover{
+	animation-play-state: paused;
+}
 .front-side , .back-side{
 	width: 100%;
 	height: 100%;
